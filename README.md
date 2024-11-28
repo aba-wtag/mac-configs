@@ -7,3 +7,4 @@ All the config files can be found here
 * Vim
 * Tmux
 * Zsh
+* AeroSpace
