@@ -143,7 +143,10 @@ alt-p = 'workspace --auto-back-and-forth P'
 alt-q = 'workspace --auto-back-and-forth Q'
 alt-r = 'workspace --auto-back-and-forth R'
 alt-s = 'workspace --auto-back-and-forth S'
+alt-t = 'workspace --auto-back-and-forth T'
 alt-v = 'workspace --auto-back-and-forth V'
+alt-w = 'workspace --auto-back-and-forth W'
+alt-x = 'workspace --auto-back-and-forth X'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -170,7 +173,10 @@ alt-shift-p = 'move-node-to-workspace P'
 alt-shift-q = 'move-node-to-workspace Q'
 alt-shift-r = 'move-node-to-workspace R'
 alt-shift-s = 'move-node-to-workspace S'
+alt-shift-t = 'move-node-to-workspace T'
 alt-shift-v = 'move-node-to-workspace V'
+alt-shift-w = 'move-node-to-workspace W'
+alt-shift-x = 'move-node-to-workspace X'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
@@ -224,7 +230,10 @@ P = 'secondary'
 Q = 'secondary'
 R = 'secondary'
 S = 'secondary'
+T = 'secondary'
 V = 'secondary'
+W = 'secondary'
+X = 'secondary'
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
@@ -245,6 +254,10 @@ run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.systempreferences'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.apple.iphonesimulator'
 run = ['layout floating']
 
 
